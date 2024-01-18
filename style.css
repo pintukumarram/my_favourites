@@ -1,0 +1,75 @@
+*{
+
+}
+body{
+    font-family:Helvetica, sans-serif;
+    /* background:hsl(56, 94%, 65%) */
+    background-color: yellow;
+}
+
+h1,p{
+color: rgb(247, 10, 180);
+text-align: center;
+}
+h3,a{
+    text-decoration: none;
+color: hsl(119, 83%, 55%);
+text-transform:none;
+text-align: center;
+font-style:italic;
+font-weight: bold;
+}
+a:hover{
+    color: blanchedalmond;
+}
+li{
+    font-size: 17px;
+    color: rgb(249, 63, 143);
+    text-align: center;
+    justify-content: center;
+}
+
+.book{
+    background-color: rgb(31, 15, 15);
+    margin: 20px 20px 25px;
+    padding: 15px;
+    margin-left: 100px;
+    margin-right: 200px;
+    border-radius: 20px;
+  
+}
+.book:hover{
+    transition: all 1s 0.5s;
+
+}
+.food{
+    background-color: rgb(31, 15, 15);
+    margin: 20px 20px 25px;
+    padding: 15px;
+    margin-left: 100px;
+    margin-right: 200px;
+    border-radius: 20px;
+    transform: scaleX(0.9);
+}
+.song{
+    background-color: rgb(30, 30, 134);
+    margin: 20px 20px 25px;
+    padding: 15px;
+    margin-left: 100px;
+    margin-right: 200px;
+    border-radius: 20px;
+    transform: scaleX(0.9);
+}
+.movie{
+    background-color: rgb(30, 23, 27);
+    margin: 20px 20px 25px;
+    padding: 15px;
+    margin-left: 100px;
+    margin-right: 200px;
+    border-radius: 20px;
+    transform: scaleX(0.9);
+}
+.container{
+    display: block;
+}
+
